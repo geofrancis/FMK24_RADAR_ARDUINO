@@ -14,8 +14,8 @@ void loop() {
     object = Serial1.parseInt(); //dataIn now holds 0
     range = Serial1.parseInt(); //dataIn now holds 0
 
-    Serial.print(data1);
+    Serial.print(object);
     Serial.print(":");
-    Serial.println(data2);
+    Serial.println(range);
 
 }
